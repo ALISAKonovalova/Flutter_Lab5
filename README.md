@@ -1,17 +1,42 @@
-# qute_app_konovalova
+# Quote App (Лабораторная работа №6)
 
-A new Flutter project.
+**Тема:** Приложение "Цитата дня".
+**Описание:** Приложение показывает случайную мотивирующую цитату из заранее подготовленного списка и меняет тематическую картинку при нажатии кнопки.
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+**Фамилия, Имя:** Коновалова Алиса
+**Группа:** [Твоя группа]
+**Дата сдачи:** 12.11.2026
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter 3.35+
+- Dart 3+
+- Платформа: Web (Chrome) / Windows
+- IDE: VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Скриншот приЙложения](img/step6_Коновалова.png)
+
+## Структура проекта
+
+- `main.dart` — точка входа.
+- `gradient_container.dart` — фон с градиентом.
+- `styled_text.dart` — виджет текста.
+- `quote_generator.dart` — логика генерации цитат.
+
+## Как запустить
+
+1. `git clone https://github.com/ALISAKonovalova/Flutter_Lab5.git`
+2. `cd Flutter_Lab5`
+3. `flutter pub get`
+4. `flutter run -d chrome`
+
+## Что изучили
+
+1. Организация структуры проекта.
+2. Передача параметров в StatelessWidget.
+3. Генератор случайных чисел Random.
+4. Подключение изображений.
